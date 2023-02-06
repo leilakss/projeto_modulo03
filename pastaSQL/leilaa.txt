@@ -1,0 +1,21 @@
+create table alunos(
+cpf int primary key,
+nome varchar(30),
+telefone int,
+nome varchar);
+
+
+create table turma(
+numero int primary key,
+aluno varchar(30),
+turno varchar(15),
+modalidade varchar(20),
+sala int);
+
+create table curso(
+nome varchar(30) primary key,
+disciplina varchar(10),
+carga_horaria int(5),
+modulos varchar(20)
+quantidade_de_alunos int);
+
